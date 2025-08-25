@@ -1,10 +1,10 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
-import Counter from "./basic/counter";
+import SimpleProducts from "./basic/lifecycle/componentDidMount";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <Counter title="hello counter" />
+    <SimpleProducts />
   </StrictMode>
 );
