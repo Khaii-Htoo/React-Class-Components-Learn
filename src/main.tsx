@@ -1,10 +1,10 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
-import SimpleProducts from "./basic/lifecycle/componentDidMount";
+import SearchProducts from "./basic/lifecycle/componentDidUpdate";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <SimpleProducts />
+    <SearchProducts />
   </StrictMode>
 );
