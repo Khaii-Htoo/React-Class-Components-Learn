@@ -1,10 +1,10 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
-import BasicLifecycle from "./basic/lifecycle/allLifecycle";
+import ProductDashboard from "./Products";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <BasicLifecycle />
+    <ProductDashboard />
   </StrictMode>
 );
